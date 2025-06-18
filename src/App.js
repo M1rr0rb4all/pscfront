@@ -76,7 +76,7 @@ const OwnershipVisualizer = () => {
     if (mermaidRef.current) {
       try {
         mermaidRef.current.innerHTML = '';
-        const mermaid = (await import('https://cdn.skypack.dev/mermaid@10.6.1')).default;
+        const mermaid = await import('mermaid');
         mermaid.initialize({ 
           startOnLoad: false,
           theme: 'default',
