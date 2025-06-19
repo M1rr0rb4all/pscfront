@@ -11,7 +11,7 @@ import {
   FaSpinner
 } from 'react-icons/fa';
 
-const API_BASE_URL = 'http://localhost:8000'; // Change this to your deployed backend URL
+const API_BASE_URL = 'https://pscbackend.onrender.com'; // Change this to your deployed backend URL
 
 const OwnershipVisualizer = () => {
   const [companyName, setCompanyName] = useState('');
